@@ -7,6 +7,9 @@ import employeeRouter from "./routes/employeeRoutes.js";
 import flaschcardRouter from "./routes/flaschcardRoutes.js";
 import germanNounRouter from "./routes/germanNounRoutes.js";
 
+import techBookRouter from "./routes/techBookRoutes.js";
+import techitemRouter from "./routes/techitemRoutes.js";
+
 // import productRouter from "./routes/productRoutes.js";
 
 // import seedRouter from "./routes/seedRoutes.js";
@@ -34,6 +37,8 @@ app.use("/api/books", bookRouter);
 app.use("/api/employees", employeeRouter);
 app.use("/api/flaschcards", flaschcardRouter);
 app.use("/api/germanNouns", germanNounRouter);
+app.use("/api/techbooks", techBookRouter);
+app.use("/api/techitems", techitemRouter);
 
 // app.use("/api/users", userRouter);
 // app.use("/api/orders", orderRouter);

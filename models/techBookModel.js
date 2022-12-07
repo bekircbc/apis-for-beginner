@@ -2,15 +2,15 @@ import mongoose from "mongoose";
 
 const techBookSchema = new mongoose.Schema(
   {
-    buyurl: { type: String, required: true, unique: true },
-    currentpage: { type: String, required: true },
-    description: { type: String, required: true },
-    idcode: { type: String, required: true },
-    language: { type: String, required: true },
+    idCode: { type: String, required: true, unique: true },
     title: { type: String, required: true },
+    description: { type: String, required: true },
+    notes: { type: String, required: true },
+    yearMonth: { type: String, required: true },
+    rank: { type: String, required: true },
 
-    totalpages: { type: String, required: true },
-    rank: { type: String },
+    language: { type: String, required: true },
+    extras: { type: String },
   },
   {
     timestamps: true,

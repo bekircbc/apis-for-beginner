@@ -2,16 +2,16 @@
 
 @TOKEN = 
 
-### PRODUCTS ROUTE +++
+### PRODUCTS ROUTE    +++
 GET {{API_URL}}/api/books
 
-### CATEGORIES ROUTE +++
+### CATEGORIES ROUTE   +++
 GET {{API_URL}}/api/employees
 
 
-### PRODUCTID ROUTE +++
+### PRODUCTID ROUTE   +++
 GET {{API_URL}}/api/books/639097d17616f45f59671daa
 
-### PRODUCTID ROUTE +++
+### PRODUCTID ROUTE   ++++
 GET {{API_URL}}/api/employees/639097e07616f45f59671e1c
 

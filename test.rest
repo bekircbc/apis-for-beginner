@@ -8,6 +8,11 @@ GET {{API_URL}}/api/books
 ### CATEGORIES ROUTE   +++
 GET {{API_URL}}/api/employees
 
+### CATEGORIES ROUTE   +++
+GET {{API_URL}}/api/flaschcards
+
+### CATEGORIES ROUTE   +++
+GET {{API_URL}}/api/germanNouns
 
 ### PRODUCTID ROUTE   +++
 GET {{API_URL}}/api/books/639097d17616f45f59671daa
@@ -15,3 +20,5 @@ GET {{API_URL}}/api/books/639097d17616f45f59671daa
 ### PRODUCTID ROUTE   ++++
 GET {{API_URL}}/api/employees/639097e07616f45f59671e1c
 
+### PRODUCTID ROUTE   ++++
+GET {{API_URL}}/api/flaschcards/639097f47616f45f59671e26

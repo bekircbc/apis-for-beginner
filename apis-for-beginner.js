@@ -4,6 +4,8 @@ import path from "path";
 
 import bookRouter from "./routes/bookRoutes.js";
 import employeeRouter from "./routes/employeeRoutes.js";
+import flaschcardRouter from "./routes/flaschcardRoutes.js";
+import germanNounRouter from "./routes/germanNounRoutes.js";
 
 // import productRouter from "./routes/productRoutes.js";
 
@@ -30,6 +32,8 @@ app.use(cors());
 // app.use("/api/seed", seedRouter);
 app.use("/api/books", bookRouter);
 app.use("/api/employees", employeeRouter);
+app.use("/api/flaschcards", flaschcardRouter);
+app.use("/api/germanNouns", germanNounRouter);
 
 // app.use("/api/users", userRouter);
 // app.use("/api/orders", orderRouter);

@@ -1,0 +1,17 @@
+@API_URL = http://localhost:43526
+
+@TOKEN = 
+
+### PRODUCTS ROUTE +++
+GET {{API_URL}}/api/books
+
+### CATEGORIES ROUTE +++
+GET {{API_URL}}/api/employees
+
+
+### PRODUCTID ROUTE +++
+GET {{API_URL}}/api/books/639097d17616f45f59671daa
+
+### PRODUCTID ROUTE +++
+GET {{API_URL}}/api/employees/639097e07616f45f59671e1c
+

@@ -7,7 +7,7 @@ const techBookSchema = new mongoose.Schema(
     description: { type: String, required: true },
     notes: { type: String, required: true },
     yearMonth: { type: String, required: true },
-    rank: { type: String, required: true },
+    rank: { type: Number, required: true },
 
     language: { type: String, required: true },
     extras: { type: String },

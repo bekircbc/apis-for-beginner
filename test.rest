@@ -14,6 +14,12 @@ GET {{API_URL}}/api/flaschcards
 ### CATEGORIES ROUTE   +++
 GET {{API_URL}}/api/germanNouns
 
+### CATEGORIES ROUTE   +++
+GET {{API_URL}}/api/techitems
+
+### CATEGORIES ROUTE   +++
+GET {{API_URL}}/api/techbooks
+
 ### PRODUCTID ROUTE   +++
 GET {{API_URL}}/api/books/639097d17616f45f59671daa
 
@@ -22,3 +28,12 @@ GET {{API_URL}}/api/employees/639097e07616f45f59671e1c
 
 ### PRODUCTID ROUTE   ++++
 GET {{API_URL}}/api/flaschcards/639097f47616f45f59671e26
+
+### PRODUCTID ROUTE   ++++
+GET {{API_URL}}/api/germanNouns/6390d1217616f45f596721c6
+
+### PRODUCTID ROUTE   ++++
+GET {{API_URL}}/api/techitems/639098307616f45f59672021
+
+### PRODUCTID ROUTE   ++++
+GET {{API_URL}}/api/techbooks/6390d10a7616f45f5967219e
